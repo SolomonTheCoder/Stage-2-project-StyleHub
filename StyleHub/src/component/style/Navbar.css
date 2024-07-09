@@ -1,0 +1,57 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.nav-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-logo h2 {
+  margin: 0;
+}
+
+.nav-tags ul {
+  display: flex;
+  font-size: large;
+  font-weight: 500;
+  margin: 0;
+}
+
+.nav-tags li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.nav-tags a {
+  text-decoration: none;
+  color: #00000057;
+}
+
+.nav-tags li:first-child a {
+  color: black;
+}
+
+.nav-tags a:hover {
+  color: black;
+}
+
+@media (max-width: 767px) {
+  .nav-logo {
+    margin: 0 auto;
+  }
+
+  .nav-tags {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media (min-width: 1024px) {
+}

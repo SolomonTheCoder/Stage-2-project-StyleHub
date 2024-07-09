@@ -1,0 +1,113 @@
+.Order {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 50px;
+}
+
+.get-delivery {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border: 1px black solid;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 0 10px;
+  width: 150%;
+}
+
+.pickup {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border: 1px black solid;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 0 10px;
+  width: 150%;
+}
+
+.shipping-address input {
+  padding: 9px 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px black solid;
+  text-align: center;
+  outline: none;
+  width: 150%;
+  margin: 10px 0;
+}
+
+.delivery-btn {
+  text-align: center;
+}
+
+.delivery-btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.delivery-btn button {
+  background-color: #7707bb;
+  color: white;
+  font-size: large;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 50px;
+}
+
+.Payment input {
+  padding: 9px 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px black solid;
+  text-align: center;
+  outline: none;
+  width: 100%;
+  margin: 10px 0;
+}
+
+@media (max-width: 767px) {
+  .Order {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .get-delivery {
+    width: 100%;
+  }
+
+  .pickup {
+    width: 100%;
+  }
+
+  .shipping-address input {
+    width: 100%;
+  }
+
+  .payment-card {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .Order {
+    margin: 0 20px;
+  }
+
+  .get-delivery {
+    width: 100%;
+  }
+
+  .pickup {
+    width: 100%;
+  }
+
+  .shipping-address input {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+}

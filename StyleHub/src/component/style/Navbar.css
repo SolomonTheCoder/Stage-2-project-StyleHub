@@ -41,12 +41,17 @@
 }
 
 @media (max-width: 767px) {
+  .Navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
   .nav-logo {
     margin: 0 auto;
   }
 
-  .nav-tags {
-    display: none;
+  .nav-tags ul {
+    padding: 0;
   }
 }
 

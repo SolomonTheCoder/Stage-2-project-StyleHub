@@ -1,7 +1,7 @@
 import './App.css'
 import { Routes,Route } from 'react-router-dom'
 import Navbar from './component/Navbar'
-import Home from './component/pages/Home'
+import Home from "./component/Home"
 import Cart from './component/pages/Cart'
 import Discover from './component/pages/Discover'
 import See_all from './component/pages/See_all'
@@ -10,12 +10,7 @@ import Payment from './component/pages/Payment'
 import Transation from './component/pages/Transation'
 
 
-
-
-
 function App() {
-  
-
   return (
     <>
       <Navbar/>

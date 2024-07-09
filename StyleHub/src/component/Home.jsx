@@ -1,10 +1,10 @@
-import "../style/Home.css"
-import Snap from "../images/camera (1).png"
-import Search from "../images/search (1).png"
-import Cart from "../images/shopping-cart (1).png"
-import Bell from "../images/bell (1).png"
-import homeImg from "../images/Desktop image (1).png"
-import { Products } from "./Products"
+import "./style/Home.css"
+import Snap from "../component/images/camera (1).png"
+import Search from "../component/images/search (1).png"
+import Cart from "../component/images/shopping-cart (1).png"
+import Bell from "../component/images/bell (1).png"
+import homeImg from "../component/images/Desktop image (1).png"
+import { Products } from "./pages/Products"
 import { Link } from "react-router-dom"
 
 

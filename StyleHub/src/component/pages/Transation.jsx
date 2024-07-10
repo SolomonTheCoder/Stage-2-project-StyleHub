@@ -8,7 +8,7 @@ const Transation = () => {
    <div className="transation">
 <img src={successs} alt="" />
 <h2>Transation successful</h2>
-<button><Link to="/Home">Send receipt</Link></button>
+<button><Link to="/">Send receipt</Link></button>
    </div>
     </>
   )

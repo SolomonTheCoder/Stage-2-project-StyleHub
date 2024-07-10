@@ -10,7 +10,7 @@ const See_all = () => {
     <>
       <div className="Search-menu">
       <div className="back">
-         <Link to="/Home"><img src={arrow} alt="" /></Link>
+         <Link to="/"><img src={arrow} alt="" /></Link>
          <p>See all</p> 
       </div>
       <div className="Notification-bar">
